@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+
+
+
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.rit{
+    display: flex;
+    justify-content: center;
+
+}
+.mainbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+
+
+}
+.bannerbx{
+    max-width: 70%;
+}
+.bannerbx,h1{
+    color: blue;
+}
+.bannerbx,span {
+    color: orange;
+}
+.bannerbx p{
+    color: black;
+}
+h1,p{  
+    font-weight: bold;
+    font-size: 60px;
+}
+.mainbx button{
+    border: 1px solid black ;
+    
+}
